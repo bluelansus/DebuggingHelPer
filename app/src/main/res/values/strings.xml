@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">DebuggingHelPer</string>
     <string name="action_settings">Settings</string>
+    <string name="app_name_is">App name： %1$s</string>
+    <string name="app_version_is">App version： %1$s</string>
+    <string name="debug_app_information">Debug App Information </string>
 </resources>

@@ -1,4 +1,4 @@
-package com.lansus.debugginghelper;
+package com.lansus.debugginghelper.test;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.lansus.debugginghelper.R;
 import com.lansus.debugginghelper.service.FloatService;
 
 /**

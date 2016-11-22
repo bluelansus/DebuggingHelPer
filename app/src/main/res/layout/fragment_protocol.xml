@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/border_background"
+    tools:context="com.lansus.debugginghelper.test.ProtocolFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+  <TextView
+      android:paddingBottom="@dimen/activity_vertical_margin"
+      android:layout_gravity="center_horizontal"
+      android:textStyle="bold"
+      android:text="@string/debug_app_information"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="17sp"/>
+        <View
+            android:background="@color/colorPrimary"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            >
+
+        </View>
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+<TextView
+
+    android:id="@+id/tv_fragment_protocol_app_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+
+        android:id="@+id/tv_fragment_protocol_app_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+            <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="服务器:阿里云"
+        android:id="@+id/tv_fragment_protocol_server_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_fragment_protocol_server_ip"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>
